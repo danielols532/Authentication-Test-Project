@@ -8,3 +8,174 @@
  *
  * Consider organizing styles into separate files for maintainability.
  */
+
+/* Custom styles for the navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    padding: 0.75rem 1.25rem;
+}
+
+.nav-link:hover {
+    color: #ffbf00 !important;
+    /* Gold color on hover */
+}
+
+/* Custom styles for the fixed top navbar */
+body {
+    padding-top: 60px;
+    /* Adjust body content to avoid overlap with fixed navbar */
+}
+
+/* Optional: Adjust navbar for smaller screens */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+/* General Body Styles */
+body {
+    background-color: #121212;
+    /* Dark background */
+    color: #e0e0e0;
+    /* Light text color for better contrast */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Main Section Styling */
+main {
+    background-color: #1e1e1e;
+    /* Slightly lighter dark background */
+    color: #fff;
+    padding: 80px 20px;
+    /* Adds spacing between content and edges */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.lead {
+    font-size: 1.25rem;
+}
+
+.small {
+    font-size: 0.9rem;
+}
+
+/* Form Container Styling */
+.card {
+    background-color: #1f1f1f;
+    /* Dark background for cards */
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    /* Soft shadow for modern feel */
+    margin: 20px 0;
+}
+
+.card-title {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Form Fields Styling */
+.form-label {
+    color: #b0b0b0;
+    font-size: 1rem;
+}
+
+.form-control {
+    background-color: #333;
+    /* Dark background for input fields */
+    color: #fff;
+    border: 1px solid #444;
+    /* Dark border */
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    /* Smooth transition for background change */
+}
+
+.form-control:focus {
+    background-color: #444;
+    /* Slightly lighter dark background when focused */
+    border-color: #007bff;
+    /* Blue border when focused */
+    outline: none;
+    color: #bbb;
+}
+
+.form-control::placeholder {
+    color: #bbb;
+    /* Light placeholder text */
+}
+
+/* Submit Button Styling */
+.btn {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+    /* Lift the button effect on hover */
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+    /* Lift the button effect on hover */
+}
+
+/* Form Alignment and Spacing */
+.row {
+    margin-top: 30px;
+}
+
+.col-md-6 {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Additional Custom Styling */
+.text-center {
+    text-align: center;
+}
+
+.py-5 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.py-4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
